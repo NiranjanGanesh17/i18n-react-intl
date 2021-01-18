@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <h1>
         <FormattedMessage id='Hello' /><br />
-        Today's Date :
+        Today's Date is :
         <FormattedDate
           value={new Date()}
           year="numeric"
